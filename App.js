@@ -5,24 +5,88 @@ import { Navigation } from 'react-native-navigation'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import KeypadScreen from 'circles/lib/components/KeypadScreen'
-// console.log('importing uport-connect')
-// const Eth = require('circles/node_modules/ethjs-query/dist/ethjs-query.js')
-// // const UportConnect = require('circles/node_modules/uport-connect/src/Connect')
+console.log('importing uport-connect')
+const Eth = require('circles/node_modules/ethjs-query/dist/ethjs-query.js')
+const UportConnect = require('circles/vendor/uport-connect')
+const Connect = UportConnect.ConnectCore
+const SimpleSigner = UportConnect.SimpleSigner
+import randomString from 'randomstring-promise/react-native'
+import URL from 'url-parse'
+import qs from 'qs'
+
+// import Web3 from 'web3'
+import { Linking } from 'react-native'
+const rpcUrl = 'https://rinkeby.infura.io/dgC6Vl5Qvg79AZi8C39h'
+const circlesUport = '2odDf3tfWkap1kPqAHYm7ow2B1m2SisVK5M' // clientId from app manager
+const circlesKP = {
+  privateKey: '93f02803e9de795913463b64285da23629892995e19691fe544ae4680c0ac671', // private key from app manager
+}
+
+// let randomStringGen = new randomString()
+console.log('############################')
+randomString(10).then((result) => console.log(result))
+const circlesSigner = SimpleSigner(circlesKP.privateKey)
+// used to redirect the app link to uport application
+const uriHandler = (url) => {
+  console.log(url)
+  Linking.openURL(url)
+}
+
+export const uport = new Connect('Circles', {
+  clientId: circlesUport,
+  signer: circlesSigner,
+  mobileUrlHandler: uriHandler,
+  uriHandler: uriHandler,
+  rpcUrl
+})
 //
-// // import { ConnectCore } from 'uport-connect'
-// // import UportConnect from 'uport-connect'
-// // import { ConnectCore } from 'circles/vendor/uport-connect/src/index'
-// // const Connect = UportConnect.ConnectCore
-// // console.log('##############################')
-// // console.log(Connect)
-// // let uport = new Connect('Circles')
+uport.topicFactory = (name) => {
+  const id = '333f3f3k31'
+  const path = `/uport/${id}`
+  const url = `stream.agreed.app:${path}`
+  let handler
+  let cancel
+  const topic = new Promise((resolve, reject) => {
+    handler = (event) => {
+      if (event.url) {
+        const url = URL(event.url, true)
+        if (url.pathname === path) {
+          if (url.hash) {
+            const params = qs.parse(url.hash.slice(1))
+            Linking.removeEventListener('url', handler)
+            resolve(params[name])
+          } else {
+            console.log('no hash')
+            reject()
+          }
+        } else {
+          console.log('ignoring request')
+        }
+      }
+    }
+    Linking.addEventListener('url', handler)
+
+    cancel = () => {
+      Linking.removeEventListener('url', handler)
+      resolve()
+    }
+  })
+  topic.url = url
+  topic.cancel = cancel
+  return topic
+}
 //
+export const eth = new Eth(uport.getProvider())
+
 // // uport.requestCredentials().then((credentials) => {
 // //   console.log(credentials)
 // // })
-// // onPress={() => uport.requestCredentials().then((credentials) => {
-// //   Alert.alert(credentials)
-// // })}>
+// onPress={() => this.props.navigator.push({
+//   screen: 'KeypadScreen',
+//   navigatorStyle: {
+//     navBarHidden: true
+//   }
+// })}
 class HomeScreen extends React.Component {
   static navigatorStyle = {
     navBarHidden: true
@@ -33,11 +97,14 @@ class HomeScreen extends React.Component {
       <View style={{flex: 1, alignItems: 'center', backgroundColor: 'black'}}>
         <Image source={require('circles/images/logo.png')} style={{ width: 275, height: 275, marginTop: 40 }} />
         <Text style={{marginTop: 20, fontSize: 40, color: 'white'}}>Circles</Text>
-        <TouchableHighlight onPress={() => this.props.navigator.push({
-          screen: 'KeypadScreen',
-          navigatorStyle: {
-            navBarHidden: true
-          }
+        <TouchableHighlight onPress={() => uport.requestCredentials().then((credentials) => {
+          Alert.alert(credentials);
+          this.props.navigator.push({
+            screen: 'KeypadScreen',
+            navigatorStyle: {
+              navBarHidden: true
+            }
+          })
         })} style={{alignItems: 'center', justifyContent: 'center', backgroundColor: '#50E3C2', width: 275, height: 60, marginTop: 125, borderRadius: 8}}>
           <Text style={{fontSize: 20}}>Login With uPort</Text>
         </TouchableHighlight>
@@ -112,25 +179,25 @@ class SearchScreen extends React.Component {
 Navigation.registerComponent('HomeScreen', () => HomeScreen)
 Navigation.registerComponent('KeypadScreen', () => KeypadScreen)
 Navigation.registerComponent('ProfileScreen', () => ProfileScreen)
-// Navigation.startSingleScreenApp({
-//   screen: {
-//     screen: 'HomeScreen',
-//     // title: 'Circles'
-//   }
-// })
-
-Navigation.startTabBasedApp({
-  tabs: [
-    {
-      label: 'Transfer',
-      screen: 'KeypadScreen'
-    },
-    {
-      label: 'Profile',
-      screen: 'ProfileScreen'
-    }
-  ]
+Navigation.startSingleScreenApp({
+  screen: {
+    screen: 'HomeScreen',
+    // title: 'Circles'
+  }
 })
+
+// Navigation.startTabBasedApp({
+//   tabs: [
+//     {
+//       label: 'Transfer',
+//       screen: 'KeypadScreen'
+//     },
+//     {
+//       label: 'Profile',
+//       screen: 'ProfileScreen'
+//     }
+//   ]
+// })
 const styles = StyleSheet.create({
   container: {
     flex: 1,

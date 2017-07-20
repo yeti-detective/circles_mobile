@@ -12,17 +12,25 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
-    "build-uport-connect": "node_modules/.bin/derequire node_modules/uport-connect/dist/uport-connect.js >vendor/uport-connect.js"
+    "build-uport-connect": "node_modules/.bin/derequire node_modules/uport-connect/dist/uport-connect.js >vendor/uport-connect.js",
+    "build-random-string": "node_modules/.bin/derequire node_modules/randomstring/lib/randomstring.js >vendor/randomstring.js",
+    "build-web3": "node_modules/.bin/derequire node_modules/web3/dist/web3.js >vendor/web3.js"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "ethjs-query": "^0.2.6",
+    "qs": "^6.5.0",
+    "randomstring": "^1.1.5",
+    "randomstring-promise": "^0.0.2",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.45.1",
     "react-native-navigation": "^1.1.139",
+    "react-native-randombytes": "^2.2.0",
     "react-native-vector-icons": "^4.2.0",
-    "uport-connect": "^0.6.4"
+    "uport-connect": "^0.6.4",
+    "url-parse": "^1.1.9"
   },
   "react-native": {
     "stream": false,
