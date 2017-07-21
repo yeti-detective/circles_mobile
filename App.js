@@ -5,6 +5,7 @@ import { Navigation } from 'react-native-navigation'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import KeypadScreen from 'circles/lib/components/KeypadScreen'
+import LoginScreen from 'circles/lib/components/LoginScreen'
 
 class ProfileScreen extends React.Component {
   render () {
@@ -60,12 +61,12 @@ class SearchScreen extends React.Component {
   render () {
   }
 }
-Navigation.registerComponent('HomeScreen', () => HomeScreen)
+Navigation.registerComponent('LoginScreen', () => LoginScreen)
 Navigation.registerComponent('KeypadScreen', () => KeypadScreen)
 Navigation.registerComponent('ProfileScreen', () => ProfileScreen)
 Navigation.startSingleScreenApp({
   screen: {
-    screen: 'HomeScreen'
+    screen: 'LoginScreen'
     // title: 'Circles'
   }
 })
