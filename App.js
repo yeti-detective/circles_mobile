@@ -10,9 +10,10 @@ const Eth = require('circles/node_modules/ethjs-query/dist/ethjs-query.js')
 const UportConnect = require('circles/vendor/uport-connect')
 const Connect = UportConnect.ConnectCore
 const SimpleSigner = UportConnect.SimpleSigner
-import randomString from 'randomstring-promise/react-native'
+var randomString = require('random-string')
 import URL from 'url-parse'
 import qs from 'qs'
+
 
 // import Web3 from 'web3'
 import { Linking } from 'react-native'
@@ -22,9 +23,6 @@ const circlesKP = {
   privateKey: '93f02803e9de795913463b64285da23629892995e19691fe544ae4680c0ac671', // private key from app manager
 }
 
-// let randomStringGen = new randomString()
-console.log('############################')
-randomString(10).then((result) => console.log(result))
 const circlesSigner = SimpleSigner(circlesKP.privateKey)
 // used to redirect the app link to uport application
 const uriHandler = (url) => {
@@ -41,7 +39,7 @@ export const uport = new Connect('Circles', {
 })
 //
 uport.topicFactory = (name) => {
-  const id = '333f3f3k31'
+  const id = randomString({length: 10})
   const path = `/uport/${id}`
   const url = `stream.agreed.app:${path}`
   let handler
