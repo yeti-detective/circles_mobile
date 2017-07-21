@@ -5,7 +5,8 @@ import { Navigation } from 'react-native-navigation'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import KeypadScreen from 'circles/lib/components/KeypadScreen'
-console.log('importing uport-connect')
+
+
 const Eth = require('circles/node_modules/ethjs-query/dist/ethjs-query.js')
 const UportConnect = require('circles/vendor/uport-connect')
 const Connect = UportConnect.ConnectCore
@@ -96,7 +97,8 @@ class HomeScreen extends React.Component {
         <Image source={require('circles/images/logo.png')} style={{ width: 275, height: 275, marginTop: 40 }} />
         <Text style={{marginTop: 20, fontSize: 40, color: 'white'}}>Circles</Text>
         <TouchableHighlight onPress={() => uport.requestCredentials().then((credentials) => {
-          Alert.alert(credentials);
+          console.log('####################')
+          console.log('suppppp')
           this.props.navigator.push({
             screen: 'KeypadScreen',
             navigatorStyle: {

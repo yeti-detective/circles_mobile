@@ -24,7 +24,6 @@
     "qs": "^6.5.0",
     "random-string": "^0.2.0",
     "randomstring": "^1.1.5",
-    "randomstring-promise": "^0.0.2",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.45.1",
     "react-native-navigation": "^1.1.139",
