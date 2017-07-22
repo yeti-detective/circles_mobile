@@ -2,10 +2,13 @@ import React from 'react'
 
 import { StyleSheet, Text, View, TouchableHighlight } from 'react-native'
 import { Navigation } from 'react-native-navigation'
+import { Provider } from 'react-redux'
+// Store
+import store from 'circles/lib/store/store'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import KeypadScreen from 'circles/lib/components/KeypadScreen'
-import LoginScreen from 'circles/lib/components/LoginScreen'
+import LoginScreen from 'circles/lib/containers/LoginContainer'
 
 class ProfileScreen extends React.Component {
   render () {
@@ -61,7 +64,7 @@ class SearchScreen extends React.Component {
   render () {
   }
 }
-Navigation.registerComponent('LoginScreen', () => LoginScreen)
+Navigation.registerComponent('LoginScreen', () => LoginScreen, store, Provider)
 Navigation.registerComponent('KeypadScreen', () => KeypadScreen)
 Navigation.registerComponent('ProfileScreen', () => ProfileScreen)
 Navigation.startSingleScreenApp({
@@ -71,18 +74,6 @@ Navigation.startSingleScreenApp({
   }
 })
 
-// Navigation.startTabBasedApp({
-//   tabs: [
-//     {
-//       label: 'Transfer',
-//       screen: 'KeypadScreen'
-//     },
-//     {
-//       label: 'Profile',
-//       screen: 'ProfileScreen'
-//     }
-//   ]
-// })
 // const styles = StyleSheet.create({
 //   container: {
 //     flex: 1,
