@@ -1,6 +1,4 @@
 dependencies: \
-  /Users/shokishoki/development/consensys/circles/node_modules/react-native-randombytes/RNRandomBytes.m \
-  /Users/shokishoki/development/consensys/circles/node_modules/react-native-randombytes/RNRandomBytes.h \
   ../react-native/React/Base/RCTBridgeModule.h \
   /Users/shokishoki/development/consensys/circles/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   ../react-native/React/Base/RCTBridge.h \

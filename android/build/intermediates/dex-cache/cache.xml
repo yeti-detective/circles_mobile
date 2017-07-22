@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_0698844ff8fa595fe1dc7e0caad0ae09cb03d76e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_4aaac20bed53e4f4f39e6831136c375bfda8ed0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_11317bb00f9ee2a0f0cec09036b9843aca2e27e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_d71fe80e2271bd27e40dee453cf9eec1511e408f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_58365a1860edcb4256e6ef59d66d17b7b2813d63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_546f3290334076312d3dbf783bc1d59ee7578319.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_f8f0d84a495ada052fa9cbb2bf519d00035b0d74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_2d3a5b681f807c6971587b99cfd5a773deb507c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2ea862c05cb425f43d63cf9d25b45eaad0e1ec57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_4f91a66faa579ef510e7df9c62381d832d3dfdab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_0efabad763875317a9f7b3298fbec8050cef381e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_8dc74be3c60574b80b8d3db2906f9f8bbb24c168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_008e165219ab2664d9ed7a6975098ad1c5a796cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_2d63f10ff25fe14a3e9a7458b077c3ddbd74f4f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/circles/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/circles-react-native-vector-icons-unspecified_2865945bead72f69f20619867e70220b67f2fce9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_abf36073c90e5fe5a78f1bd565bfe76d0ae1e861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_6fcede97d1486560023b1d0438113a0ff972e5e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_3097dc39e3b4f70ba49d1e15ebdded0c184ee227.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_1fcdb67401b048d245f35ce7c604b18cc82d8da1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_c8959184b88a36f65b0977d42a752754957896d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_e0138a518ac87a34db5ce296b8ae60b673311ca0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_f958375d451077307f0e1039b89b2bdb6f1df890.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_ef3161e72d7e3177311be422e7c7bd29cbc05faf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_9f6b67f353319837edead266e60912e13893db26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_964f134337b98972932957fa3493b7fa4d710e97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_9107fde472a06d2ff05b3e8c60a178e0cb27dc1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d3e48e200296061415952a358fad487e129adaa">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.45.1_73e364c9446474098d58433ba413874bc358092e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_946c2061acc384eef9465f2bf09be15015cafa10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_858dea3df1b6eb989bcda88121ea8fba74c2c439.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_4a3fb96ff4d5dc4b064a346888a6e99636fd1de6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_3cbd44d8d7354168207af5bbc043f90ca8dc3610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_606ee7140267f113c90c39c9e2cc1dc37b7e2c48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_b430cf58b07e7dec4ce053e1278c18a2f4d16e59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_d6e7421aa364c0e81c0b0a42787490221031f464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_196e8be12b3756b2428c3f3c707ec25f894aaf78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/circles/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b667d26c98fb3c3d0242065b3ee6070d02df3488">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/circles-react-native-navigation-unspecified_4c7b3383dc16c4c244af99064ba38f890aca0116.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/shokishoki/development/consensys/circles/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_5503964a87838ccbd40dc44d269923dd81dadfc8.jar" />
+    </item>
+
+</items>
