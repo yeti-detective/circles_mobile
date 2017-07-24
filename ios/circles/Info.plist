@@ -54,7 +54,9 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location is needed to find local circles users around you.</string>
+	<string>We need to know your location, so that we can find people in your area.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We need to access your contacts, so that we can tell them about Circles.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Ionicons.ttf</string>

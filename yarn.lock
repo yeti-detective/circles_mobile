@@ -3230,7 +3230,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.8:
+prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -3316,6 +3316,16 @@ react-devtools-core@^2.1.8:
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
+
+react-native-check-box@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-check-box/-/react-native-check-box-2.0.0.tgz#c7042a5c5c79daff124e6bb8d5af61a01ccb8674"
+  dependencies:
+    prop-types "^15.5.7"
+
+react-native-contacts@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/react-native-contacts/-/react-native-contacts-0.8.2.tgz#9cf8a0b4afb411163999762effb2dfdf4febc2a6"
 
 react-native-navigation@^1.1.139:
   version "1.1.139"
