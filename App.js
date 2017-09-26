@@ -36,7 +36,7 @@ Navigation.registerComponent('ProfileScreen', () => ProfileScreen, store, Provid
 Navigation.registerComponent('LookupScreen', () => LookupScreen, store, Provider)
 Navigation.startSingleScreenApp({
   screen: {
-    screen: 'LookupScreen'
+    screen: 'LoginScreen'
     // title: 'Circles'
   }
 })

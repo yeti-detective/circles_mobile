@@ -20,7 +20,11 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "ethereumjs-tx": "^1.3.3",
+    "ethereumjs-util": "^5.1.2",
     "ethjs-query": "^0.2.6",
+    "express": "^4.15.3",
     "qs": "^6.5.0",
     "random-string": "^0.2.0",
     "randomstring": "^1.1.5",
@@ -33,7 +37,8 @@
     "react-redux": "^5.0.5",
     "redux": "^3.7.2",
     "uport-connect": "^0.6.4",
-    "url-parse": "^1.1.9"
+    "url-parse": "^1.1.9",
+    "web3": "^1.0.0-beta.13"
   },
   "react-native": {
     "stream": false,
